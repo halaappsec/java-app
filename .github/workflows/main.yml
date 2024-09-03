@@ -4,7 +4,7 @@ jobs:
   sigma_code_scanning_run_steps:
     runs-on: ubuntu-latest
     container:
-      image: appsechala/sigmatesting:latest
+      image: appsechala/sigma:latest
       credentials:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.DOCKPASS }}
